@@ -10,7 +10,7 @@ Zero-Config Test Drive
 
 ```bash
 curl -fsSL https://bit.ly/lds-api-adventure -o adventure.bash
-bash ./adventure.bash node angular
+bash ./adventure.bash nobackend angular
 ```
 
 Examples
