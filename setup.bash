@@ -31,7 +31,7 @@ if [ -z "$(which bower)" ]; then
 fi
 
 case $BACKEND in
-  "node"|"nodejs"|"node.js")
+  "nobackend"|"node"|"nodejs"|"node.js")
     BACKEND="node"
     BACKEND_REPO="https://github.com/LDSorg/backend-oauth2-node-passport-example.git"
     git clone "${BACKEND_REPO}" "backend-oauth2-${BACKEND}"
