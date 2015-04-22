@@ -45,14 +45,15 @@ What are my Choices?
 
 ### Available Frontends
 
-* (jquery) jQuery + Bootstrap
-* (angular) AngularJS + Bootstrap
+* (jquery) [jQuery + Bootstrap](https://github.com/LDSorg/frontend-oauth2-jquery-example)
+* (angular) [AngularJS + Bootstrap](https://github.com/LDSorg/frontend-oauth2-angular-example)
 
 ### Available Backends
 
 **Note**: You don't actually need a backend to access the API. The Implicit Grant (Browser) Strategy of OAuth2 / OAuth3 allows for frontend-only tokens.
 
-* (nobackend) static file server only
-* (node) node.js + expressjs
-* (ruby) ruby + sinatra
-* (fxos) Firefox OS v2.x
+* (nobackend) [static file server only](https://github.com/LDSorg/backend-oauth2-node-passport-example)
+* (node) [node.js + expressjs](https://github.com/LDSorg/backend-oauth2-node-passport-example)
+* (ruby) [ruby + sinatra](https://github.com/LDSorg/backend-oauth2-ruby-sinatra-example)
+* (fxos) [Firefox OS v2.x (jquery)](https://github.com/LDSorg/fxos-oauth2-jquery-demo)
+* (fxos) [Firefox OS v2.x (angular)](https://github.com/LDSorg/fxos-oauth2-angular-demo)
