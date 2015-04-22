@@ -19,7 +19,7 @@ Examples
 Get the script:
 
 ```bash
-curl -fsSL https://bit.ly/lds-io-adventure -o adventure.bash
+curl -fsSL https://bit.ly/lds-api-adventure -o adventure.bash
 ```
 
 Combine ruby + sinatra + jquery:
