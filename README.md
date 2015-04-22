@@ -10,7 +10,7 @@ Zero-Config Test Drive
 
 ```bash
 curl -fsSL https://bit.ly/lds-api-adventure -o adventure.bash
-bash ./adventure.bash node angular
+bash ./adventure.bash nobackend angular
 ```
 
 Examples
@@ -39,3 +39,20 @@ Combine FirefoxOS + jquery:
 ```bash
 bash ./adventure.bash fxos jquery
 ```
+
+What are my Choices?
+------------------
+
+### Available Frontends
+
+* (jquery) jQuery + Bootstrap
+* (angular) AngularJS + Bootstrap
+
+### Available Backends
+
+**Note**: You don't actually need a backend to access the API. The Implicit Grant (Browser) Strategy of OAuth2 / OAuth3 allows for frontend-only tokens.
+
+* (nobackend) static file server only
+* (node) node.js + expressjs
+* (ruby) ruby + sinatra
+* (fxos) Firefox OS v2.x
