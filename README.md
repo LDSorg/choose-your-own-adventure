@@ -48,6 +48,8 @@ What are my Choices?
 * (jquery) [jQuery + Bootstrap](https://github.com/LDSorg/frontend-oauth2-jquery-example)
 * (angular) [AngularJS + Bootstrap](https://github.com/LDSorg/frontend-oauth2-angular-example)
 
+*TODO*: lds.io-frontend ldsconnect.org-frontend facecards.org-frontend
+
 ### Available Backends
 
 **Note**: You don't actually need a backend to access the API. The Implicit Grant (Browser) Strategy of OAuth2 / OAuth3 allows for frontend-only tokens.
@@ -57,3 +59,5 @@ What are my Choices?
 * (ruby) [ruby + sinatra](https://github.com/LDSorg/backend-oauth2-ruby-sinatra-example)
 * (fxos) [Firefox OS v2.x (jquery)](https://github.com/LDSorg/fxos-oauth2-jquery-demo)
 * (fxos) [Firefox OS v2.x (angular)](https://github.com/LDSorg/fxos-oauth2-angular-demo)
+
+*TODO*: lds.io-backend
