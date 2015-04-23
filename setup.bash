@@ -115,8 +115,24 @@ case $FRONTEND in
     FRONTEND_REPO="https://github.com/LDSorg/frontend-oauth2-angular-example.git"
     git clone "${FRONTEND_REPO}" "frontend-oauth2-${FRONTEND}"
     rm -f public
-    ln -s "frontend-oauth2-${FRONTEND}/app" public
+    ln -s "frontend-oauth2-${FRONTEND}" public
     pushd "frontend-oauth2-${FRONTEND}"
+    bower install
+    ;;
+  "ldsio")
+    FRONTEND_REPO="https://github.com/LDSorg/lds.io-frontend.git"
+    git clone "${FRONTEND_REPO}" "lds.io-frontend"
+    rm -f public
+    ln -s "lds.io-frontend/app" public
+    pushd "lds.io-frontend"
+    bower install
+    ;;
+  "ldsconnect")
+    FRONTEND_REPO="https://github.com/LDSorg/ldsconnect.org-frontend.git"
+    git clone "${FRONTEND_REPO}" "ldsconnect.org-frontend"
+    rm -f public
+    ln -s "ldsconnect.org-frontend/app" public
+    pushd "ldsconnect.org-frontend"
     bower install
     ;;
   "fxos-jquery")
